@@ -1,0 +1,1238 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero{
+  width: 100%;
+  height: 100vh;
+  background-image:linear-gradient(#000000a2,#2c352a41), url(images/background\ 2.jpeg);
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.vision{
+  width: 60%;
+  margin: auto;
+}
+.vision h1{
+  font-size: 64px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color:black;
+
+}
+.vision p{
+  font-size: 18px;
+  font-family: sans-serif;
+  color:white;
+  font-weight: 400;
+  margin: 10px auto;
+}
+.visionGoal{
+  color: darkcyan;
+}
+.navbar{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.navbar ul{
+ list-style-type: none;
+}
+.navbar ul li{
+  display: inline-block;
+  padding: 10px 20px;
+}
+.navbar ul li a{
+ display: block;
+ font-size: 18px;
+ font-family: sans-serif;
+ font-weight: 400;
+ color: black;
+ text-decoration: none ;
+ transition: color 3s ease 1s;
+}
+.navbar ul li a:hover{
+ color:darkblue;
+ text-decoration: underline;
+}
+.logo{
+  width: 150px;
+  background-color:darkblue;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+.logo p{
+  color: white;
+}
+.create{
+  width: 160px;
+  background-color:darkblue;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.create p{
+  color: white;
+}
+.btnOne{
+  width: 200px;
+  background-color:darkblue;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 20px auto;
+  color: white;
+}
+
+.btnTwo{
+  width: 200px;
+  background-color:white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 20px auto;
+  color:black;
+}
+
+.statement{
+  width: 40%;
+  height: auto;
+}
+
+.menu{
+  display: none;
+}
+
+ .fa-bars{
+  color: black;
+  cursor: pointer;
+}
+
+/* team/deliver/time */
+.about{
+   width: 100%;
+   background-color:rgb(250, 250, 248);
+}
+.patent{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 20px auto;
+
+}
+.parentGrid{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin:auto;
+}
+.iconImage{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items:center;
+  gap : 20px;
+  margin: 30px auto;
+}
+.growth{
+  color: darkcyan;
+}
+.icon{
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.icon img{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.childflex{
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items:center;
+  gap: 20px;
+  margin: 30px auto;
+}
+.aboutUs{
+  width: 300px;
+  margin:30px auto;
+  text-align: center;
+}
+.aboutUs h2{
+  font-size: 32px;
+  font-family: sans-serif;
+  font-weight:700;
+  cursor: pointer;
+  color: darkcyan;
+}
+
+.stavision p{
+  width: 600px;
+ font-size: 18px;
+ font-family: sans-serif;
+ font-weight: 400;
+}
+
+
+.partner h3{
+font-size: 24px;
+font-family: sans-serif;
+font-weight: bold;
+margin: 20px auto;
+}
+.iconImage p{
+ font-size: 18px;
+ font-family: sans-serif;
+ font-weight: 400;
+}
+.child{
+  width: 90%;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  border-radius: 15px;
+  transition: all 3s ease 1s;
+  
+}
+.child:hover{
+  transform: scaleX(0.9);
+  
+}
+.iconIma{
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+.iconIma img{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.career .heading{
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: 600;
+  transition: all 3s ease 1s;
+ 
+}
+.career .heading:hover{
+ color:darkcyan ;
+ text-decoration: underline;
+}
+.career p{
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 400;
+   padding:5px;
+}
+/* css for service */
+.serviceFocuse{
+  width: 800px;
+  margin: 30px auto;
+}
+.serice{
+  width: 700px;
+  text-align: center;
+  margin: 20px auto;
+}
+.serice h2{
+  font-size: 32px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 20px;
+  padding: 20px;
+  color: darkcyan;
+}
+.suceess{
+  font-size: 32px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 20px;
+  padding: 20px;
+}
+.suceess2{
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 400;
+  margin: 20px;
+  text-align: center;
+}
+.serviceContainer{
+  width: 100%;
+  background-color:rgb(245, 247, 248);
+}
+.sericeGrid{
+  width: 100%;
+  margin: auto;
+  display:grid ;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+.childGrid{
+  width: 80%;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  border-radius: 15px;
+  transition: all 3s ease 1s;
+  margin: auto;
+
+  
+}
+.childGrid:hover{
+  transform: scale(0.9);
+  border: 1px solid darkcyan;
+}
+.gridIcon{
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  margin: auto;
+}
+.gridIcon img{
+  width: 100%;
+  height: 100%;
+}
+.gridservice h3{
+ text-align: center;
+ padding: 10px;
+ font-size: 24px;
+ font-family: sans-serif;
+ font-weight: 700;
+  transition: all 3s ease 1s;
+  cursor: pointer;
+ 
+}
+
+.gridservice h3:hover{
+ color: darkcyan;
+ text-decoration: underline;
+}
+
+.gridservice p{
+ padding: 10px;
+ font-size: 20px;
+ font-weight: 400;
+ font-family: sans-serif;
+ padding-left:10px ;
+}
+
+/* css contact */
+
+.contactFlex{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  margin: auto;
+}
+.contact{
+  width: 100%;
+  background-color:rgb(245, 247, 248);
+  margin: 40px 0;
+}
+.contactGrid{
+  width: 40%;
+  display: grid;
+  grid-template-columns: 400px;
+  gap: 20px;
+
+}
+.childContactGrid{
+   background-color:rgb(245, 247, 248);
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  
+}
+
+.childGridFlex{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 20px ;
+}
+
+.contactHeading h2{
+  padding: 30px;
+  font-size: 32px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: darkcyan;
+  text-align: center;
+}
+.Conversation p {
+  padding: 30px;
+  font-size: 48px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Conversation span {
+  color: darkcyan;
+}
+
+.question p{
+  width:800px;
+  padding: 30px;
+  font-size: 32px;
+  font-family: sans-serif;
+  font-weight:400;
+  margin: auto;
+}
+.location p{
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight:400;
+  margin: auto;
+  padding: 5px;
+}
+
+.location .email{
+  color: darkcyan;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.location .our{
+  color: darkcyan;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.location .phone{
+  color: darkcyan;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+/* css for message */
+.message{
+  width: 60%;
+  background-color: #ffffff;
+}
+.send{
+  width: 400px;
+  margin: 30px auto;
+}
+.send h2{
+  font-family: sans-serif;
+  font-weight:400;
+  margin: auto;
+  padding: 5px;
+  color: darkcyan;
+  font-size: 24px;
+  font-weight: bold;
+}
+.formDetails{
+  margin: 30px;
+}
+
+.formDetails .textmsg{
+  height: 200px;
+}
+.formDetails label{
+  display: block;
+  font-size:16px ;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.formDetails input{
+  width: 100%;
+  padding: 15px;
+  display: block;
+  font-size:16px ;
+  font-family: sans-serif;
+  font-weight: 400;
+   border-radius: 10px;
+   background-color:rgb(245, 247, 248);
+   opacity: 0.1;
+   margin-top: 20px;
+}
+
+.formDetails .textmsg{
+  display: block;
+  font-size:16px ;
+  font-family: sans-serif;
+  font-weight: 400;
+  border-radius: 10px;
+ background-color:rgb(245, 247, 248);
+ opacity: 0.1;
+
+}
+
+.sendButton {
+width: 90%;
+margin: auto;
+}
+.sendButton button{
+  width: 100%;
+  background-color: darkblue;
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+}
+
+/* css for footer */
+.footer{
+  width: 100%;
+ background-color: darkblue;
+}
+.footerFlex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+.acuraLogoFlex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.mission{
+  width: 400px;
+}
+
+.mission p{
+  font-family: sans-serif;
+  margin: auto;
+  color:white;
+  font-size: 16px;
+  font-weight: 400px;
+  opacity: 0.6;
+}
+.Service{
+  margin-top: 30px;
+}
+.acuraLogo{
+  font-family: sans-serif;
+  color:white;
+  font-size: 16px;
+  font-weight: bold;
+  padding:20px;
+}
+.Service h3{
+  font-family: sans-serif;
+  font-weight:bold;
+  color:white;
+  font-size: 16px;
+   padding: 10px;
+}
+
+.linksOne p{
+  font-family: sans-serif;
+  margin: auto;
+  color:white;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.6;
+  padding: 20px 0;
+}
+
+.linksTwo p{
+  font-family: sans-serif;
+  margin: auto;
+  color:white;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.6;
+  padding: 26px 0;
+}
+
+.linksThree p{
+  font-family: sans-serif;
+  margin: auto;
+  color:white;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.6;
+  padding: 28px 0;
+}
+.legal h3{
+  font-family: sans-serif;
+  color:white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.compny h3{
+  font-family: sans-serif;
+  color:white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Mobile View @Media Query */
+@media screen and (max-width: 640px) {
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  
+ .navbar ul{
+    width: 100%;
+    background-color:darkblue;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+ }
+ .navbar ul li{
+  display: block;
+  padding: 20px ;
+ }
+ .navbar ul li a{
+  text-align:center;
+  color: white;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bold;
+  transition: all 3s ease 1s;
+ }
+
+.navbar ul li a:hover{
+ color:orange;
+ text-decoration: underline;
+}
+ .create{
+  display: none;
+ }
+
+ .logo{
+  width: 150px;
+  background-color:darkblue;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+.logo p{
+  color: white;
+}
+ .menu{
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  right:0;
+ }
+  .fa-bars{
+  color:black;
+  cursor: pointer;
+  
+}
+.navbar{
+  width: 100%;
+  height: 70px;
+}
+.logo{
+  width: 150px;
+  margin: auto;
+}
+
+.hero{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: auto;
+}
+.vision{
+  width: 100%;
+}
+.vision h1{
+  font-size: 32px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color:black;
+  margin: auto;
+
+}
+.vision p{
+  font-size: 16px;
+  font-family: sans-serif;
+  color:black;
+  font-weight: 400;
+  margin: auto;
+}
+.btnOne{
+  width: 100px;
+  background-color:darkblue;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 10px auto;
+  color: white;
+}
+
+.btnTwo{
+  width: 100px;
+  background-color:white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 10px auto;
+  color: black;
+}
+
+/* about Media */
+.about{
+   width: 100%;
+   background-color:rgb(250, 250, 248);
+}
+.patent{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+
+}
+.parentGrid{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 300px;
+  column-gap: 20px;
+}
+.iconImage{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  gap : 20px;
+  margin: 30px auto;
+}
+.growth{
+  color: darkcyan;
+}
+.icon{
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.icon img{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.childflex{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  gap: 20px;
+  margin: 30px auto;
+}
+.aboutUs{
+  width: 300px;
+  margin:30px auto;
+  text-align: center;
+}
+.aboutUs h2{
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight:700;
+  cursor: pointer;
+  color: darkcyan;
+}
+.statement{
+  width: 80%;
+}
+
+.patent{
+  width: 100%;
+}
+.stavision p{
+  width: 100%;
+ font-size: 16px;
+ font-family: sans-serif;
+ font-weight: 400;
+ padding-left: 20px;
+}
+.partner h3{
+font-size: 18px;
+font-family: sans-serif;
+font-weight: bold;
+margin: 20px auto;
+padding-left: 20px;
+}
+.iconImage{
+  width: 100%;
+}
+.iconImage p{
+ font-size: 16px;
+ font-family: sans-serif;
+ font-weight: 400;
+}
+.child{
+  width: 100%;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  transition: all 3s ease 1s;
+  
+}
+.child:hover{
+  transform: scaleX(0.9);
+  
+}
+.iconIma{
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+.iconIma img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.career .heading{
+  width: 90%;
+  text-align: center;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 600;
+  transition: all 3s ease 1s;
+
+ 
+}
+.career .heading:hover{
+ color:darkcyan ;
+ text-decoration: underline;
+}
+.career p{
+  width: 90%;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 400;
+   padding-left:20px;
+}
+/* css for service */
+.serviceFocuse{
+  width: 100%;
+  margin: 30px auto;
+}
+.serice{
+  width: 100%;
+  text-align: center;
+  margin: 20px auto;
+}
+.serice h2{
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 20px;
+  padding: 20px;
+  color: darkcyan;
+}
+.suceess{
+  width: 90%;
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 20px;
+  padding: 20px;
+}
+.suceess2{
+  width: 80%;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 400;
+  margin: 20px;
+  text-align: center;
+}
+.serviceContainer{
+  width: 100%;
+  background-color:rgb(245, 247, 248);
+}
+.sericeGrid{
+  width: 100%;
+  margin: auto;
+  display:grid ;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+.childGrid{
+  width: 90%;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  transition: all 3s ease 1s;
+
+  
+}
+.childGrid:hover{
+  transform: scale(0.9);
+  border: 1px solid darkcyan;
+}
+.gridIcon{
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  margin: auto;
+  object-fit: cover;
+}
+.gridIcon img{
+  width: 100%;
+  height: 100%;
+}
+.gridservice h3{
+  margin: auto;
+ /* text-align: center; */
+ padding: 10px;
+ font-size: 16px;
+ font-family: sans-serif;
+ font-weight: 700;
+  transition: all 3s ease 1s;
+  cursor: pointer;
+ 
+}
+
+.gridservice h3:hover{
+ color: darkcyan;
+ text-decoration: underline;
+}
+
+.gridservice p{
+  width: 90%;
+ padding: 10px;
+ font-size: 16px;
+ font-weight: 400;
+ font-family: sans-serif;
+ padding-left:10px ;
+ margin-left: 20px;
+}
+
+/* media querry for contact */
+.contactFlex{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: auto;
+}
+.contact{
+  width: 100%;
+  background-color:rgb(245, 247, 248);
+  margin: 40px 0;
+}
+.contactGrid{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+
+}
+.childContactGrid{
+   background-color:rgb(245, 247, 248);
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  
+}
+
+.childGridFlex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px ;
+}
+
+.contactHeading h2{
+  padding: 30px;
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: darkcyan;
+  text-align: center;
+}
+.Conversation p {
+  padding: 30px;
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Conversation span {
+  color: darkcyan;
+}
+
+.question p{
+  width:100%;
+  padding: 30px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight:400;
+  margin: auto;
+}
+.location p{
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight:400;
+  margin: auto;
+  padding: 5px;
+}
+
+.location .email{
+  color: darkcyan;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.location .our{
+  color: darkcyan;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.location .phone{
+  color: darkcyan;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* css for message */
+.message{
+  width: 100%;
+  background-color: #ffffff;
+}
+.send{
+  width: 400px;
+  margin: 30px auto;
+}
+.send h2{
+  font-family: sans-serif;
+  font-weight:400;
+  margin: auto;
+  padding: 5px;
+  color: darkcyan;
+  font-size: 18px;
+  font-weight: bold;
+}
+.formDetails{
+  margin: 30px;
+}
+
+.formDetails .textmsg{
+  height: 200px;
+}
+.formDetails label{
+  display: block;
+  font-size:16px ;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.formDetails input{
+  width: 100%;
+  padding: 15px;
+  display: block;
+  font-size:16px ;
+  font-family: sans-serif;
+  font-weight: 400;
+   border-radius: 10px;
+   background-color:rgb(245, 247, 248);
+   opacity: 0.1;
+}
+
+.formDetails .textmsg{
+  display: block;
+  font-size:16px ;
+  font-family: sans-serif;
+  font-weight: 400;
+  border-radius: 10px;
+ background-color:rgb(245, 247, 248);
+ opacity: 0.1;
+}
+
+.sendButton{
+  width: 100%;
+}
+
+.sendButton button{
+  width: 90%;
+  background-color: darkblue;
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 10px;
+  margin: auto;
+  border: none;
+  border-radius: 15px;
+}
+
+/* media for footer */
+.footer{
+  width: 100%;
+ background-color: darkblue;
+}
+.footerFlex{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  gap: 20px;
+}
+.acuraLogoFlex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.mission{
+  width: 400px;
+}
+
+.mission p{
+  font-family: sans-serif;
+  margin: auto;
+  color:white;
+  font-size: 14px;
+  font-weight: 400px;
+  opacity: 0.6;
+}
+.Service{
+  margin-top: 30px;
+}
+.acuraLogo{
+  font-family: sans-serif;
+  color:white;
+  font-size: 14px;
+  font-weight: bold;
+  padding:20px 0;
+}
+.Service h3{
+  font-family: sans-serif;
+  font-weight:bold;
+  color:white;
+  font-size: 14px;
+   padding: 10px 0;
+   margin: auto;
+   text-align: center;
+}
+
+.linksOne p{
+  font-family: sans-serif;
+  margin: auto;
+  color:white;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.6;
+  padding: 20px 0;
+}
+
+.linksTwo p{
+  font-family: sans-serif;
+  margin: auto;
+  color:white;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.6;
+  padding: 26px 0;
+}
+
+.linksThree p{
+  font-family: sans-serif;
+  margin: auto;
+  color:white;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.6;
+  padding: 28px 0;
+}
+.legal h3{
+  font-family: sans-serif;
+  color:white;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+
+.compny h3{
+  font-family: sans-serif;
+  color:white;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+
+}
+
+
+
+
