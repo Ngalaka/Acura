@@ -26,14 +26,14 @@
   font-weight: bold;
   font-family: sans-serif;
   color:black;
-
+  margin: 20px auto;
 }
 .vision p{
   font-size: 18px;
   font-family: sans-serif;
   color:white;
   font-weight: 400;
-  margin: 10px auto;
+  margin: 20px auto;
 }
 .visionGoal{
   color: darkcyan;
@@ -700,15 +700,17 @@ margin: auto;
   font-weight: bold;
   font-family: sans-serif;
   color:black;
-  margin: auto;
+  margin:20px 30px;
+  padding-left: 20px ;
 
 }
 .vision p{
   font-size: 16px;
   font-family: sans-serif;
-  color:black;
+  color: white;
   font-weight: 400;
-  margin: auto;
+  padding-left: 20px ;
+  margin:20px 30px;
 }
 .btnOne{
   width: 100px;
