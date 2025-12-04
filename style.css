@@ -18,7 +18,7 @@
 }
 
 .vision{
-  width: 60%;
+  width: 70%;
   margin: auto;
 }
 .vision h1{
@@ -696,21 +696,23 @@ margin: auto;
   width: 100%;
 }
 .vision h1{
+  width: 100%;
   font-size: 32px;
   font-weight: bold;
   font-family: sans-serif;
   color:black;
-  margin:20px 30px;
-  padding-left: 20px ;
+  margin:20px auto;
+  padding-left: 30px ;
 
 }
 .vision p{
+  width: 100%;
   font-size: 16px;
   font-family: sans-serif;
   color: white;
   font-weight: 400;
-  padding-left: 20px ;
-  margin:20px 30px;
+  padding-left: 30px ;
+  margin: 20px auto;
 }
 .btnOne{
   width: 100px;
@@ -722,8 +724,10 @@ margin: auto;
   font-weight: 700;
   cursor: pointer;
   border-radius: 10px;
-  margin: 10px auto;
+  margin: 10px 30px;
   color: white;
+  padding: 4px;
+  
 }
 
 .btnTwo{
@@ -736,8 +740,9 @@ margin: auto;
   font-weight: 700;
   cursor: pointer;
   border-radius: 10px;
-  margin: 10px auto;
+  margin: 10px 30px;
   color: black;
+  padding: 4px;
 }
 
 /* about Media */
